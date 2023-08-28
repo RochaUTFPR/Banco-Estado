@@ -1,0 +1,254 @@
+.tela-emprestimo {
+    margin-bottom: 20px;
+}
+
+.emprestimo-container-superior{
+    display: flex;
+    margin-top: 49px;
+}
+
+.emprestimo-container-superior-1 {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: #FF9E33;
+    align-items: center;
+    justify-content: center;
+}
+
+.emprestimo-container-superior-1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.emprestimo-container-superior-titulo {
+    display: flex;
+    margin-left: 7px;
+    width: 931px;
+    height: 40px;
+    background: #FF9E33;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.emprestimo-container-superior-titulo p {
+    margin-left: 26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.emprestimo-container-interior{
+    margin-left: 76px;
+}
+
+.emprestimo-container-interior-conta p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3E3E;
+    margin-bottom: 10px;
+}
+
+.emprestimo-container-interior-divisao {
+    width: 390px;
+    background-color: #3E3E3E;
+    height: 1px;
+}
+
+.emprestimo-container-interior-conta h1 {
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3E3E3E;
+    margin-bottom: 16px;
+}
+
+.emprestimo-container-interior-emprestimo h1 {
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3E3E3E;
+    margin-bottom: 16px;
+}
+
+.emprestimo-container-interior-emprestimo {
+    display: flex;
+    flex-direction: column;
+    width: 239px;
+    margin-top: 16px;
+}
+
+.emprestimo-container-interior-emprestimo input {
+    border: none;
+    margin-bottom: 7px;
+    outline: 0;
+}
+
+#tipo-de-emprestimo {
+ margin-top: 16px;   
+}
+
+#valor-de-emprestimo {
+    border: none;
+    margin-bottom: 7px;
+    outline: 0;
+}
+
+.emprestimo-container-interior-conta label {
+    margin-bottom: 7px;
+}
+
+.emprestimo-container-interior-Data-1 {
+    width: 191px;
+    height: 42px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emprestimo-container-interior-Data-1 h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.emprestimo-container-interior-Data h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3E3E3E;
+}
+
+.emprestimo-container-interior-Data-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+    width: 390px;
+}
+
+.emprestimo-container {
+    display: flex;
+}
+
+.emprestimo-container-lateral{
+    display: flex;
+    flex-direction: column;
+    width: 482px;
+    height: 151px;
+    background: #f8f5f2;
+    border-radius: 4px;
+    margin-left: 32px;
+    margin-top: 17px;
+}
+
+.emprestimo-container-lateral h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3E3E;
+    margin-left: 27px;
+    margin-top: 18px;
+}
+
+.emprestimo-container-lateral-div h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3E3E;
+}
+
+.emprestimo-container-lateral-div {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 27px;
+     margin-right: 30px;
+}
+
+.emprestimo-container-lateral-1 {
+    display: flex;
+    flex-direction: column;  
+}
+
+.emprestimo-container-lateral-taxa h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3E3E3E;
+
+}
+
+.emprestimo-container-interior-divisao-taxa {
+    width: 250px;
+    background-color: #3E3E3E;
+    height: 1px;
+}
+
+.emprestimo-container-lateral-taxa {
+    margin-left: 131px;
+    margin-top: 53px;
+}
+
+.emprestimo-container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#emprestimo-container-button-voltar {
+    width: 100px;
+    height: 36px;
+    border: 1.5px solid #FD8C0C;
+    border-radius: 4px;
+    color:#FD8C0C ;
+}
+
+#emprestimo-container-button-solicitar {
+    width: 115.76px;
+    height: 36px;
+    background: #FD8C0C;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.emprestimo-container-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 243px;
+}
+

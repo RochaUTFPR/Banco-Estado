@@ -1,0 +1,109 @@
+/*Header*/
+
+.header {
+    position: fixed;
+    top: 0px;
+    height: 75px;
+    width: 100%;
+    background-color: #585A5C;
+    padding-top: 8px;
+}
+
+
+
+/*Container principal*/
+
+.container-principal {
+    width: 100%;
+}
+
+.Container-superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 43px;
+    width: 229px;
+    margin-left: 177px;
+    margin-top: 116px;
+}
+
+#EntrarCliente, #EntrarServidor {
+    margin-right: 205px;
+    margin-top: 116px;
+    width: 161px;
+    display: flex;
+    height: 41px;
+    background: #FF9E33;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-login {
+    width: 20px ;
+    height: 20px;
+    margin-right: 0;
+    margin-left: 14px;
+}
+
+.entrar{
+    color: #ffff;
+    margin: auto;
+}
+
+
+
+/*Container-inferior*/
+
+.container-inferior p {
+    margin-left: 177px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FD8C0C;
+    width: 233px;
+    height: 52px;
+    text-align: start;
+    
+}
+
+.imagem-home{
+    margin-right: 222px;
+}
+
+.container-inferior {
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Footer*/
+
+.footer {
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: #585A5C;
+    position: fixed;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    }
+
+.btnsEntrar {
+    display: flex;
+    align-items: center;
+}

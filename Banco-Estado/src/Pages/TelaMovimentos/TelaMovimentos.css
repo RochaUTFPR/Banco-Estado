@@ -1,0 +1,139 @@
+
+
+
+.tela-movimentos {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 60px;
+    width: 800px;
+}
+
+.tela-movimentos h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3E3E3E;
+}
+
+.btnBuscar input {
+    border: 1px solid #3E3E3E;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 15px;
+    width: 234px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btnBuscar input::placeholder {
+    color: #C4C4C4;
+    opacity: 0.6;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#btnBuscar {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding-left: 0px;
+    
+}
+
+#buscar {
+    margin-bottom: 7px;
+    padding-bottom: 16px;
+    padding-top: 13px;
+}
+
+#btnFiltro {
+    width: 98px;
+    height: 36px;
+    cursor: pointer;
+
+    border: 1.5px solid #FD8C0C;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FD8C0C;
+}
+
+.btnFiltro {
+    margin-left: 32px;
+    margin-right: 17px;
+}
+
+#btnFiltro img {
+    padding: 2px;
+    padding-left: 8px;
+
+}
+
+#btnBaixar img {
+    padding: 2px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+#btnBaixar {
+    width: 98px;
+    height: 36px;
+
+    border: 1.5px solid #FD8C0C;
+    border-radius: 4px;
+    background-color: #ffffff;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FD8C0C;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table thead>tr>th {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+
+    color: #3E3E3E;
+}
+
+.table tbody>tr>th {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #3E3E3E;
+
+}

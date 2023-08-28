@@ -1,0 +1,340 @@
+.tela-transfere h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3E3E3E;
+    margin-bottom: 25px;
+}
+
+.tela-transfere {
+    width: 931px;
+    margin-top: 20px;
+}
+
+.item-1 {
+    display: flex;
+}
+
+.title-1 {
+    width: 931px;
+    height: 39px;
+    background: #FF9E33;
+    border-radius: 4px;
+    display: flex;
+}
+
+.title-1 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+
+    margin-bottom: 0px;
+    margin-top: 6px;
+
+    padding-left: 26px;
+    color: #FFFFFF;
+}
+
+.quadrado1 {
+    width: 40px;
+    height: 40px;
+
+    background: #FF9E33;
+    border-radius: 4px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-2 {
+    display: flex;
+
+}
+
+.conta-origem,
+.destinatario,
+.valor,
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte-input {
+    margin-top: 18px;
+    margin-left: 76px;
+}
+
+.conta-origem input,
+.destinatario input,
+.valor input {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom: 1px solid #3E3E3E;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.conta-origem label,
+.destinatario label,
+.valor label,
+.descricao label {
+    padding-bottom: 10px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+
+    color: #3E3E3E;
+}
+
+.descricao textarea#inputdesc {
+    width: 374px;
+    height: 90px;
+    left: 453px;
+    top: 360px;
+
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: #FFFFFF;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.descricao textarea#inputdesc::placeholder {
+    padding-left: 6px;
+}
+
+.descricao span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+
+
+    color: #3E3E3E;
+}
+
+.detalhes-conta {
+    width: 443px;
+    height: 98px;
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-top: 22px;
+    margin-bottom: 7px;
+    margin-left: 37px;
+}
+
+.detalhes-conta p {
+    margin-left: 17px;
+}
+
+.componentes-detalhes-conta {
+    padding-top: 31px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 25px;
+    color: #3E3E3E;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 17px;
+}
+
+.detalhes-conta-p {
+    padding-bottom: 10px;
+    margin-left: 17px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0;
+
+    color: #3E3E3E;
+
+    padding-top: 14px;
+}
+
+.btn-prox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btnProx {
+    width: 102px;
+    height: 36px;
+
+    background: #FD8C0C;
+    border-radius: 4px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.item-1-confirmar {
+    margin-top: 25px;
+    display: flex;
+}
+
+.dados-confirmar {
+    width: 927px;
+    height: 190px;
+    background-color: #EEEEEE;
+    margin-top: 21px;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.p-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #3E3E3E;
+    padding-bottom: 7px;
+}
+
+.p-body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #FF9E33;
+}
+
+.dados {
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.dados-transferencia {
+    border-bottom: 1px solid #C4C4C4;
+    width: 876px;
+}
+
+.dados-1 > .span-destinatario, .dados-2 > .span-destinatario, .dados-3 > .span-destinatario {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #292929;
+}
+
+.dados-3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dados-1, .dados-2 {
+    display: flex;
+    justify-content: space-between
+}
+
+.dados-1 span, .dados-2 span, .dados-3 span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #3E3E3E;
+}
+
+.botoes-voltar-confirmar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.btnVoltar {
+    width: 102px;
+    height: 36px;
+    background: #FD8C0C;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#conta-origem {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom: 1px solid #3E3E3E;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.container-detalhes-conta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.opcao-conta{
+    display: flex;
+    flex-direction: column;
+    margin-left: 38px;
+}
+
+.opcao-conta input{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.opcao-conta label{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#conta-origem p {
+    margin-bottom: 0px;
+}
+
+#opcao-conta2 {
+    margin-left: 0px;
+}
+
+#span-destinatario {
+    font-weight: bold;
+}
+
+.dados-3 span {
+    margin-left: 213px;
+    margin-top: 10px;
+}

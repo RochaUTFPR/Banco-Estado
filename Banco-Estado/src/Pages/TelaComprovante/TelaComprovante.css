@@ -1,0 +1,80 @@
+.tela-comprovante {
+    position: absolute;
+    width: 931px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 90px;
+}
+
+.tela-comprovante {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tela-comprovante h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3E3E3E;
+   
+}
+
+.quadrado-conta-origem, .quadrado-conta-destinatario {
+    width: 890px;
+    height: 39px;
+
+    background: #FF9E33;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.quadrado-conta-origem p, .quadrado-conta-destinatario p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 49px;
+}
+
+.itens-conta-origem, .itens-conta-destinatario {
+    width: 840px;
+    display: flex;
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-bottom: 33px;
+}
+
+.itens-conta-origem div, .itens-conta-destinatario div {
+    width: 210px;
+}
+
+.preencher {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+
+    color: #3E3E3E;
+}
+
+.atributos {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #3E3E3E;
+
+}
+

@@ -1,0 +1,90 @@
+.page-login {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+.imgLogo {
+    display: flex;
+}
+
+
+.quadrado {
+    width: 250px;
+    height: 100vh;
+    background: #D9D9D9;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-title {
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.forms label {
+    color: #3E3E3E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 6px;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.forms input {
+    border: 1px solid #3E3E3E;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 23px;
+    width: 239px;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.forms input::placeholder {
+    color: #C4C4C4;
+    opacity: 0.6;
+    
+}
+
+#btnEntrar {
+    width: 280px;
+    height: 44px;
+    background: #FD8C0C;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+

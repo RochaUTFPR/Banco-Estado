@@ -1,0 +1,43 @@
+.tela-saldo h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3E3E3E;
+    
+}
+
+.componentes {
+    width: 100%;
+}
+
+.tela-saldo {
+    margin-top: 60px;
+    margin-right: 279px;
+}
+
+.conta-poupanca {
+    width: 578px;
+    height: 70px;
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+.conta-poupanca p {
+    margin-left: 17px;
+}
+
+.conta-corrente {
+    width: 578px;
+    height: 70px;
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+.conta-corrente p {
+    margin-left: 17px;
+}
