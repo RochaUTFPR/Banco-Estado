@@ -5,9 +5,9 @@ const cors = require('cors');
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'Banco_Estado',
-  password: '123456',
-  port: 5432, //  porta que configurou o postgree
+  database: '',
+  password: '',
+  port: , //  porta que configurou o postgree
 });
 
 
